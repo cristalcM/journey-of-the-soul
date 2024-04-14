@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8629e17136f39e5428aa2eadbb61575d, type: 3}
+  m_Name: pildoras
+  m_EditorClassIdentifier: 
+  ImagenObjeto: {fileID: -8467719363764551221, guid: ba15400f932c8634085c932b19f3696b, type: 3}
+  textoName: botella de pildoras
+  textoDesc: " Las recuerdo, son mis medicamentos. Me hab\xEDa enfermado, aunque
+    no recuerdo de que, y me recetaron estas pastillas, y\u2026 creo que se me hab\xEDan\u2026
+    terminado. "
