@@ -169,7 +169,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      reloj_0: -8997582628397930837
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

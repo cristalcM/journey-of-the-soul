@@ -169,7 +169,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      laberinto_0: -5562745179316770164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
