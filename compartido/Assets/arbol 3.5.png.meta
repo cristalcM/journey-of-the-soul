@@ -169,7 +169,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arbol 3.5_0: 3575400533178478198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
