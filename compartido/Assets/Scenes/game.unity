@@ -188,7 +188,7 @@ RectTransform:
   m_Father: {fileID: 694748883}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4241,10 +4241,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 384094837409156727, guid: e63487fd7325e7f43a82fc5c3db3f98b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1842404253}
-    - targetCorrespondingSourceObject: {fileID: 384094837409156727, guid: e63487fd7325e7f43a82fc5c3db3f98b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1842404261}
+      addedObject: {fileID: 1842404265}
   m_SourcePrefab: {fileID: 100100000, guid: e63487fd7325e7f43a82fc5c3db3f98b, type: 3}
 --- !u!1 &673396209
 GameObject:
@@ -4688,7 +4685,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &839288146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9696,7 +9693,7 @@ RectTransform:
   m_Father: {fileID: 1011821577}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10644,7 +10641,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 384094837409156727, guid: e63487fd7325e7f43a82fc5c3db3f98b, type: 3}
   m_PrefabInstance: {fileID: 656499613}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1842404253
+--- !u!114 &1842404265
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10662,105 +10659,8 @@ MonoBehaviour:
     m_Bits: 64
   destinationtransform: {fileID: 674339489}
   delaytime: 0.3
-  audiosource: {fileID: 1842404261}
+  audiosource: {fileID: 73364187}
   teleportSound: {fileID: 8300000, guid: 79d2b9f4d3232d2448aa66ca3f07f154, type: 3}
---- !u!82 &1842404261
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1842404252}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1843681931
 GameObject:
   m_ObjectHideFlags: 0
@@ -12489,43 +12389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pils
       objectReference: {fileID: 0}
-    - target: {fileID: 3343784453270040742, guid: 3db1687ccc606494fa604566a153be33, type: 3}
-      propertyPath: textoUI
-      value: 
-      objectReference: {fileID: 942058749}
-    - target: {fileID: 3677838486679718437, guid: 3db1687ccc606494fa604566a153be33, type: 3}
-      propertyPath: type
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3677838486679718437, guid: 3db1687ccc606494fa604566a153be33, type: 3}
-      propertyPath: think
-      value: " Las recuerdo, son mis medicamentos. Me hab\xEDa enfermado, aunque
-        no recuerdo de que, y me recetaron estas pastillas, y\u2026 creo que se me
-        hab\xEDan\u2026 terminado. "
-      objectReference: {fileID: 0}
     - target: {fileID: 3677838486679718437, guid: 3db1687ccc606494fa604566a153be33, type: 3}
       propertyPath: textoUI
       value: 
       objectReference: {fileID: 942058749}
-    - target: {fileID: 3677838486679718437, guid: 3db1687ccc606494fa604566a153be33, type: 3}
-      propertyPath: describcion
-      value: " Recuerda que hab\xEDa enfermado, que le hab\xEDan recetado esas pastillas,
-        que se le hab\xEDan terminado y no hab\xEDa podido conseguir m\xE1s.  "
-      objectReference: {fileID: 0}
-    - target: {fileID: 3677838486679718437, guid: 3db1687ccc606494fa604566a153be33, type: 3}
-      propertyPath: tiempoInicio
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3677838486679718437, guid: 3db1687ccc606494fa604566a153be33, type: 3}
-      propertyPath: duracionTexto
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3677838486679718437, guid: 3db1687ccc606494fa604566a153be33, type: 3}
-      propertyPath: PASTILLASTEXTO
-      value: " Las recuerdo, son mis medicamentos. Me hab\xEDa enfermado, aunque
-        no recuerdo de que, y me recetaron estas pastillas, y\u2026 creo que se me
-        hab\xEDan\u2026 terminado. "
-      objectReference: {fileID: 0}
     - target: {fileID: 6550469171520151268, guid: 3db1687ccc606494fa604566a153be33, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -12566,8 +12433,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3343784453270040742, guid: 3db1687ccc606494fa604566a153be33, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

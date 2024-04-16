@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Musicamenu : MonoBehaviour
 {
+    public static Musicamenu instance;
     public static bool gamep;
     public GameObject configp; //activa y desactiva
 

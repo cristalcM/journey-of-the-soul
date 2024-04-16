@@ -13,6 +13,7 @@ public class Teletransporte : MonoBehaviour
     public float delaytime = 0.3f;
     public AudioSource audiosource;
     public AudioClip teleportSound;
+
     WaitForSeconds delay;
 
     IEnumerator Active(GameObject teletransporte)
@@ -20,6 +21,8 @@ public class Teletransporte : MonoBehaviour
         if (destinationtransform)
         {
             yield return delay;
+            // Detener la música principal
+            audiosource.Stop();
             teletransporte.transform.position =destinationtransform.position;
             teletransporte.transform.rotation = destinationtransform.rotation;
             audiosource.PlayOneShot(teleportSound);
