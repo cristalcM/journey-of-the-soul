@@ -1,39 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class thinksplayer : MonoBehaviour
 {
-    public string TextoAmostrar = " Las recuerdo, son mis medicamentos. Me había enfermado, aunque no recuerdo de que, y me recetaron estas pastillas, y… creo que se me habían… terminado.";
-    public Text textoUI;
-    void Start()
+
+
+
+    //NO ME SIRVIO
+    // Referencia al ítem asociado al objeto del inventario
+    public Item  item;
+    public ItemType type;   
+
+   
+
+    // Componentes de texto para mostrar el nombre y la descripción del ítem
+    public Text nombreText;
+    public Text descripcionText;
+
+    // Este método se llama cuando el jugador selecciona el objeto en el inventario
+    public void SeleccionarItem()
     {
+
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-
-        if (other.CompareTag("Player"))
+        // Verifica si el ítem no es nulo
+        if (item != null)
         {
-            Debug.Log("Colisión detectada con el jugador");
-            textoUI.text = TextoAmostrar;
-            Debug.Log("Texto mostrado: " + TextoAmostrar);
-        }
-
-        if (other.CompareTag("Player"))
-        {
-            textoUI.text = TextoAmostrar;
-            Debug.Log("Texto mostrado" + TextoAmostrar);
+            // Muestra el nombre y la descripción del ítem en los componentes de texto
+            nombreText.text = "Nombre: " + item.name;
+            descripcionText.text = "Descripción: " + item.description;
         }
     }
-
-
 }
+

@@ -21,8 +21,13 @@ public class playerinventory : MonoBehaviour
     public static playerinventory instance;
     public Item[] items;
 
+
+
+    //ESTO ES PARA ABRIR EL INVENTARIO 
     public GameObject inventario;
     private bool inventarioavierto = false;
+    
+
 
     private void Awake()
     {
@@ -47,12 +52,14 @@ public class playerinventory : MonoBehaviour
     {
 
     }
-    
+   
+
 }
 [System.Serializable]
 
 public class Item
 {
+
     public bool isFull;
     public int amount;
     public ItemType type;
@@ -60,7 +67,11 @@ public class Item
     public string description;
     public string think;
     public GameObject slotsSprite;
+    public Sprite spriteIMG;
+
 }
+
+
 
 
 
