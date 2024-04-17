@@ -87,6 +87,11 @@ public enum ItemType
     linterna,
     planta,
     pastillas,
+    foto,
+    abecedario,
+    radio,
+    calabera,
+    carta,
 }
 
 

@@ -82,32 +82,7 @@ public class PickUp : MonoBehaviour
                     Instantiate(particle, transform.position, Quaternion.identity);
                     break;
                 }
-                if (informacion.itemG[i].isFull == false)
-                {
-                    Debug.Log("item añadidoguardao");
-                    // Mostramos el texto
-                    textoUI.enabled = true;
-                    textoUI.text = think;
-
-                    informacion.itemG[i].isFull = true;
-                    informacion.itemG[i].amount = 1;
-                    informacion.itemG[i].type = type;
-                    informacion.itemG[i].name = nameitem;
-                    informacion.itemG[i].think = think;
-                    informacion.itemG[i].description = describcion;
-                    informacion.itemG[i].spriteIMG = sprite;
-
-
-                }
-                if (informacion.itemG[i].isFull == true && informacion.itemG[i].name == nameitem && informacion.itemG[i].amount < 10)
-                {
-                    Debug.Log("itemStakeadoguardado");
-                    informacion.itemG[i].amount += 1;
-
-
-
-                }
-
+               
 
 
 
