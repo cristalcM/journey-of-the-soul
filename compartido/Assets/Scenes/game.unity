@@ -7409,27 +7409,7 @@ Transform:
   - {fileID: 354748779}
   - {fileID: 1406331214}
   - {fileID: 1701975947}
-<<<<<<< HEAD
-  - {fileID: 1203955591}
-  - {fileID: 721489933}
-  - {fileID: 2141206854}
-  - {fileID: 1514527453}
-  - {fileID: 2068130332}
-  - {fileID: 1611955354}
-  - {fileID: 90842095}
-  - {fileID: 2043651532}
-  - {fileID: 1875808401}
-  - {fileID: 951821327}
-  - {fileID: 31437005}
-  - {fileID: 1277904782}
-  - {fileID: 1051125028}
-  - {fileID: 1930427393}
-  - {fileID: 531286714}
-  - {fileID: 419405589}
-  - {fileID: 641559330}
-=======
-  - {fileID: 571534506}
->>>>>>> 00cfb9b8b8f8fc3eeaef9ade6c6eb9ccfaf72aad
+
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1201342828
